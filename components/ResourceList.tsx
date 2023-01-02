@@ -1,4 +1,4 @@
-import { Resource } from "api/resources";
+import { Resource } from "pages/api/Resource";
 
 interface ResourceListProps {
   resources: Resource[];

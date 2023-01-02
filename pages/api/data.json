@@ -1,0 +1,35 @@
+[
+  {
+    "id": "1",
+    "title": "resource 1",
+    "description": "resource 1",
+    "link": "",
+    "image": "",
+    "priority": 3,
+    "timeToFinish": 100,
+    "status": "active",
+    "createdAt": "22.12.25"
+  },
+  {
+    "id": "2",
+    "title": "resource 2",
+    "description": "resource 2",
+    "link": "",
+    "image": "",
+    "priority": 2,
+    "timeToFinish": 50,
+    "status": "inactive",
+    "createdAt": "22.12.25"
+  },
+  {
+    "id": "3",
+    "title": "resource 3",
+    "description": "resource 3",
+    "link": "",
+    "image": "",
+    "priority": 1,
+    "timeToFinish": 25,
+    "status": "inactive",
+    "createdAt": "22.12.25"
+  }
+]

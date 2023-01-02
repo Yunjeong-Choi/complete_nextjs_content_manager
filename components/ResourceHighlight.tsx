@@ -1,4 +1,4 @@
-import { Resource } from "api/resources";
+import { Resource } from "pages/api/Resource";
 
 interface ResourceHighlightProps {
   resources: Resource[];
@@ -9,7 +9,7 @@ const ResourceHighlight = (props: ResourceHighlightProps) => {
     <section className="hero ">
       <div className="hero-body">
         <div className="container">
-          {props.resources.slice(0, 2).map((resource) => (
+          {props.resources.map((resource) => (
             <section key={resource.id} className="section">
               <div className="columns">
                 <div className="column is-8 is-offset-2">
